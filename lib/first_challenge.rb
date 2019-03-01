@@ -24,5 +24,5 @@ contacts["Freddy Mercury"].each do |key, value|
   value.delete_if{|flavor| flavor == "strawberry"}
 end
 end
-#contacts
+contacts
 end
