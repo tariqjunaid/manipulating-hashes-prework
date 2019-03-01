@@ -19,7 +19,7 @@ def first_challenge
 #      end
 #    end
 #  end
-contacts["Freddy Mercury"].collect do |key, value|
+contacts["Freddy Mercury"].each do |key, value|
   if key == :favorite_icecream_flavors
   value.delete_if{|flavor| flavor == "strawberry"}
 end
